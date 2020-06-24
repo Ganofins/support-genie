@@ -1,0 +1,41 @@
+{
+    "agents": [
+        {
+            "id": "1",
+            "is_available": true,
+            "available_since": 5,
+            "roles": ["sales"]
+        },
+        {
+            "id": "2",
+            "is_available": true,
+            "available_since": 3,
+            "roles": ["support"]
+        },
+        {
+            "id": "3",
+            "is_available": true,
+            "available_since": 10,
+            "roles": ["sales"]
+        },
+        {
+            "id": "4",
+            "is_available": false,
+            "available_since": 56,
+            "roles": ["support"]
+        },
+        {
+            "id": "5",
+            "is_available": true,
+            "available_since": 87,
+            "roles": ["sales", "support"]
+        },
+        {
+            "id": "6",
+            "is_available": false,
+            "available_since": "",
+            "roles": ["support"]
+        }
+    ],
+    "selection_mode": "least_busy"
+}
